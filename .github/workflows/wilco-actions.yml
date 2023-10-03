@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-20.04
     timeout-minutes: 10
     name: Pr checks
-    env: 
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
     services:
       postgres:
